@@ -1,0 +1,19 @@
+{
+    "name": "chocolate/factory-app",
+    "description": "Приложение шоколадной фабрики",
+    "require": {
+        "php": ">=8.0",
+        "chocolate/factory-lib": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../chocolate-factory-lib"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ChocolateFactoryApp\\": "src/"
+        }
+    }
+}
