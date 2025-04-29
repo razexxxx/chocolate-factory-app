@@ -1,19 +1,22 @@
 {
-    "name": "chocolate/factory-app",
+    "name": "6work/chocolate-factory-app",
+    "type": "prodject",
     "description": "Приложение шоколадной фабрики",
     "require": {
         "php": ">=8.0",
-        "chocolate/factory-lib": "*"
+        "6 работа/chocolate-factory-lib": "dev-master"
     },
     "repositories": [
         {
-            "type": "path",
-            "url": "../chocolate-factory-lib"
+            "type": "vcs",
+            "url": "https://github.com/razexxxx/chocolate-factory-lib"
         }
     ],
     "autoload": {
         "psr-4": {
             "ChocolateFactoryApp\\": "src/"
         }
+        
     }
+    
 }
